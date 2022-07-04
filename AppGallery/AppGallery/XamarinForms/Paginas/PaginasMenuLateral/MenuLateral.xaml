@@ -7,9 +7,9 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" >
             <StackLayout>
-                <Button Text="Pag 1" Clicked="AbrirPag01"/>
-                <Button Text="Pag 2" Clicked="AbrirPag02"/>
-                <Button Text="Pag3" Clicked="AbrirPag03"/>
+                <Button Text="Pag 1" Clicked="AbrirPag01" BackgroundColor="Transparent" HorizontalOptions="Start"/>
+                <Button Text="Pag 2" Clicked="AbrirPag02" BackgroundColor="Transparent" HorizontalOptions="Start"/>
+                <Button Text="Pag3" Clicked="AbrirPag03" BackgroundColor="Transparent" HorizontalOptions="Start"/>
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>

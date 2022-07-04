@@ -27,7 +27,7 @@ namespace AppGallery
             ////Conteudo
             //pagina.Detail = ;
 
-            MainPage = new XamarinForms.Paginas.PaginasMenuLateral.MenuLateral();
+            MainPage = new AppBase.Menu();
         }
 
         protected override void OnStart()
